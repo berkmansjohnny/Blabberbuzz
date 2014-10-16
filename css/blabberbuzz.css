@@ -2,6 +2,21 @@ a {
 	color: white;
 }
 
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 41px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #282828;
+    font-weight: lighter;
+    text-align: center;
+}
+
 #page {
 	background: url(../img/header_bg.png) top center no-repeat;
 	width: 100%;
@@ -65,6 +80,42 @@ a {
     max-width: initial;
 }
 
-.fullWidth div {
+.fullWidth .image-wrapper {
     padding: 0;
+    background-color: #6dc7b2;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.line {
+    background-color: #666666;
+    width: 100px;
+    margin: 0 auto;
+    height: 2px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 61px;
+    width: 200px;
+    font-weight: lighter;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.btn-black {
+    background-color: black;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
 }
