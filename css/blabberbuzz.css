@@ -108,6 +108,10 @@ p {
 	clear: both;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .left-grid {
 	width: 50%;
 }
