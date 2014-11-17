@@ -64,18 +64,21 @@ p {
 
 #blogpage {
     width: 100%;
-    height: 784px;
-    background-color: #6dc7b2;
+    height: 100%;
+    /*background-color: #6dc7b2;*/
 }
 
 .leftnav {
 	width: 60px;
-	height: 784px;
+	/*height: 784px;*/
+    position: fixed;
+    height: 100%;
 	background: #222222;
 }
 
 #menu {
-	height: 784px;
+	/*height: 784px;*/
+    height: 100%;
 	background: #222;
 }
 
@@ -232,4 +235,63 @@ a.line-btn {
 .blog-header {
     background: url(../img/header_bg.png) no-repeat;
     height: 200px;
+}
+
+.blog-detail-txt p {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.abouttitle h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 64px;
+    color: #f0f0f0;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    line-height: 0.8em;
+    margin-top: 40px;
+}
+
+.abouttitle .larger {
+    font-size: 100px;
+    margin: 0;
+}
+
+.people h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 24px;
+    color: #c0c0c0;
+    text-align: center;
+}
+
+.people {
+    margin-top: 40px;
+}
+
+.aboutpage #page {
+    height: 200px;
+}
+
+.blabberbuzztitle h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 122px;
+    color: #f0f0f0;
+    font-weight: lighter;
+}
+
+.aboutustitle h2 {
+    font-family: 'Playfair Display SC', serif;
+    color: #000;
+    font-size: 42px;
+    text-align: center;
+}
+
+.aboutustitle p {
+    text-align: left;
+    font-weight: lighter;
+}
+
+.aboutustitle a {
+    color: #6dc7b2;
 }
