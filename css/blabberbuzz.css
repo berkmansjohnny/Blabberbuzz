@@ -57,9 +57,10 @@ p {
 }
 
 #page {
-	background: url(../img/header_bg.png) top center no-repeat;
-	width: 100%;
-	height: 784px;
+	background: url(../img/header_bg.png) center center no-repeat;
+	/*width: 100%;*/
+	/*height: 784px;*/
+    /*background-color: red;*/
 } 
 
 #blogpage {
@@ -69,7 +70,8 @@ p {
 }
 
 .leftnav {
-	width: 60px;
+	/*width: 60px;*/
+    width: 4%;
 	/*height: 784px;*/
     position: fixed;
     height: 100%;
@@ -126,7 +128,7 @@ p {
 }
 
 .fullWidth {
-    width: 100%;
+    width: 92%;
     margin-left: auto;
     margin-right: auto;
     max-width: initial;
@@ -295,3 +297,4 @@ a.line-btn {
 .aboutustitle a {
     color: #6dc7b2;
 }
+
